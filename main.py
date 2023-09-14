@@ -28,10 +28,10 @@ def menuLoad(menu):
 def create_ticket():C
  #------->>>>>>>>> Ticket info<<<<<<<<<<<<<-----------------
 
-ticket_creator = input("Enter ticket creator: ")
-staff_id = input("Enter staff ID: ")
-email_address = input("Enter email address: ")
-description = input("Enter description: ")
+Ticket_creator = input("Enter ticket creator: ")
+Staff_id = input("Enter staff ID: ")
+Email_address = input("Enter email address: ")
+Description = input("Enter description: ")
 
 
 
