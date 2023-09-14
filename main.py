@@ -92,6 +92,10 @@ while True:
                f"Response: {ticket.response}\n"
                f"Ticket Status: {ticket.status}\n")
 
+     elif choice == 5:
+        # password change
+        print()
+
 #------------------- generate the password---------------
 
     def generate_password(self, ):
