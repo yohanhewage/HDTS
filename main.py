@@ -32,6 +32,8 @@ Ticket_creator = input("Enter ticket creator: ")
 Staff_id = input("Enter staff ID: ")
 Email_address = input("Enter email address: ")
 Description = input("Enter description: ")
+Response = input("Enter response:")
+Ticket_status = input("Ticket status:")
 
 
 
@@ -41,7 +43,7 @@ ticket = Ticket(Ticket_creator, Staff_id, Email_address, Description, Response, 
 
 def resolve_ticket(ticket):
     response = input("Enter response: ")
-    ticket.resolve_ticket(response)
+    ticket.resolve_ticket(Response)
 
 
 
@@ -115,7 +117,9 @@ while True:
    # elif choice == 0:
 
        # break
-
+#---------------->>>>>>EXIT<<<<<<<<<<<-----------------
+else:
+        print(" Invalid choice\n")
 
 
 
