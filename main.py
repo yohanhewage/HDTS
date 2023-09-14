@@ -35,7 +35,7 @@ Description = input("Enter description: ")
 
 
 
-ticket = Ticket(Ticket_creator, Staff_id, Email_address, Description)
+ticket = Ticket(Ticket_creator, Staff_id, Email_address, Description, Response, Ticket_status )
 
 #return ticket
 
