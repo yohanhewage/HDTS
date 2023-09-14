@@ -63,8 +63,8 @@ while True:
         ticket_number = Ticket.ticket_count
         found = False
 
-        for ticket in tickets:
-            if ticket.ticket_number == ticket.ticket_count:
+        for Ticket in Tickets:
+            if Ticket.ticket_number == Ticket.ticket_count:
                 resolve_ticket(ticket)
                 found = True
                 print("\nTicket resolved successfully.")
@@ -92,7 +92,7 @@ while True:
                f"Response: {ticket.response}\n"
                f"Ticket Status: {ticket.status}\n")
 
-     elif choice == 5:
+    elif choice == 5:
         # password change
         print()
 
@@ -115,8 +115,7 @@ while True:
    # elif choice == 0:
 
        # break
-#---------------->>>>>>EXIT<<<<<<<<<<<-----------------
-else:
-        print(" Invalid choice\n")
+
+
 
 
