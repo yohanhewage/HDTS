@@ -118,8 +118,7 @@ while True:
 
        # break
 #---------------->>>>>>EXIT<<<<<<<<<<<-----------------
-else:
-        print(" Invalid choice\n")
+
 
 
 
