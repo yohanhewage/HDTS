@@ -3,7 +3,7 @@ class Ticket:
     tickets_resolved = 0
     tickets_to_solve = 0
 
-    def __init__(self, Ticket_creator, Staff_id, Email, Description, Response, Ticket_status):
+    def __init__(self, Ticket_creator, Staff_id, Email_address, Description, Response, Ticket_status):
         Ticket.count += 1
         self.Ticket_creator = Ticket_creator
         self.Staff_id = Staff_id
