@@ -2,11 +2,14 @@
 
 General usage note.
 
-unzip the zip file
-open the py files on an IDE, (such as VS code or Pycharm newer versions)
+Unzip the zip file
+
+Open the py files (main.py and Tickets.py) on an IDE, (such as VS code or Pycharm newer versions)
 make it run.
-follow the intructions according to your code.
-enter numbers where it requires
+
+Follow the intructions according to the code.
+
+Enter numbers or words where it relevent
 
 
 
